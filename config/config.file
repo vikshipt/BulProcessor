@@ -1,0 +1,19 @@
+PORT=1099
+#----------- SMPP ----------
+SMPP_IP=localhost
+SMPP_PORT=8899
+THROUGHPUT=50
+SLEEP=1000
+ALERT_SENDER = AMSALERT
+#------------ HLR ----------
+HLR_SERVER_IP=localhost
+HLR_SERVER_PORT=2775
+HLR_THROUGHPUT=100
+HLR_SLEEP=2000
+#-------------DATABASE------
+CONNECTION_URL=jdbc:mysql://localhost:3306/host_brd
+USERNAME=smppuser
+PASSWORD=smpp
+HLR_DATABASE=hlr_brd
+#--------session alive time (in minutes) -------
+SESSION_ALIVE_TIME=2
